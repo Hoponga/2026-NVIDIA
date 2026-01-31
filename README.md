@@ -100,6 +100,9 @@ For any questions or additional assistance using Brev, see the [Brev Console Ref
 Please see the [Deliverables Checklist](/team-submissions/README.md) in the team-submissions folder for more information about the evaluation criteria of each deliverable.
 
 ## Resources
+### NVIDIA Jan 30, 2026 Worskhop Presentation
+* [Slide deck](https://github.com/iQuHACK/2026-NVIDIA/blob/main/NVIDIA-presentation-slides-MIT-IQuHack.pdf)
+
 ### CUDA-Q    
 
 * If you are new to quantum computing, (e.g., you'd like a review of the definition of a qubit, quantum gates, and quantum circuits), then run through the first two notebooks of the [Quick Start to Quantum Computing](https://github.com/NVIDIA/cuda-q-academic/tree/main/quick-start-to-quantum) series.
