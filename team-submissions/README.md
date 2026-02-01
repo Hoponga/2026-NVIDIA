@@ -14,7 +14,7 @@ Includes **Self-Validation** checks (symmetry/brute force/etc.)
 ### Phase 2
 - **Final code:**
   1. QAOA: [QAOA_for_LABS_optimized.ipynb](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/QAOA_for_LABS_optimized.ipynb) and [QAOA_MTS_optimized.ipynb](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/QAOA_for_LABS_optimized.ipynb)
-  2. QE-MTS: [QAOA_for_LABS_optimized.ipynb](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/qe_mts.py)
+  2. QE-MTS: [qe_mts.py](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/qe_mts.py)
 Graph included.
 - **Test suite:** [pytest.py](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/pytest.py)
 - **AI report:** [AI_REPORT.md](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/AI_REPORT-Submission.md)
