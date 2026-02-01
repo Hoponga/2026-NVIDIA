@@ -17,7 +17,7 @@ Includes **Self-Validation** checks (symmetry/brute force/etc.)
   2. QE-MTS: [qe_mts.py](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/qe_mts.py)
 - **Test suite:** [pytest.py](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/pytest.py)
 - **AI report:** [AI_REPORT.md](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/AI_REPORT-Submission.md)
-- **Presentation:** `teams-submissions/[TEAM_NAME]/presentation/[slides.pdf | slides.pptx | demo.mp4]`
+- **Presentation:** [FinalPresentation](https://github.com/Hoponga/2026-NVIDIA/blob/main/team-submissions/iQuHack%202026%20Final%20Presentation.pdf)
 
 
 ## References
