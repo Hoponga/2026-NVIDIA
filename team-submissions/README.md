@@ -20,6 +20,15 @@ Graph included.
 - **AI report:** [AI_REPORT.md](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/AI_REPORT-Submission.md)
 - **Presentation:** `teams-submissions/[TEAM_NAME]/presentation/[slides.pdf | slides.pptx | demo.mp4]`
 
+
+## References
+
+- Zhu, L., Tang, H. L., Barron, G. S., Calderon-Vargas, F. A., Mayhall, N. J., Barnes, E., & Economou, S. E. (2022). *Adaptive quantum approximate optimization algorithm for solving combinatorial problems on a quantum computer*. Physical Review Research, 4(3), 033029. https://doi.org/10.1103/PhysRevResearch.4.033029
+
+- Shaydulin, R., Li, C., Chakrabarti, S., DeCross, M., Herman, D., Kumar, N., et al. (2024). *Evidence of scaling advantage for the quantum approximate optimization algorithm on a classically intractable problem*. Science Advances, 10(22), eadm6761.
+
+- Mertens, S. (1996). *Exhaustive search for low-autocorrelation binary sequences*. Journal of Physics A: Mathematical and General, 29(18), L473.
+
 ## Deliverables Checklist
 
 **Step 0: (Due by noon eastern Sat Jan 31)**
@@ -27,16 +36,16 @@ The Project Lead should fork this repository and share the forked repository lin
 
 **Phase 1 Submission (Due 10pm eastern Sat Jan 31):**
 (To be judged to obtain access to GPUs with Brev credits)
-* [ ] **Tutorial Notebook:** Completed [01_quantum_enhanced_optimization_LABS.ipynb](https://github.com/iQuHACK/2026-NVIDIA/blob/main/tutorial_notebook/01_quantum_enhanced_optimization_LABS.ipynb) including your "Self-Validation" section.
-* [ ] **PRD:** `PRD.md` defining your plan.  See [Milestone 1 in the challenge description]([LABS-challenge-Phase1.md](https://github.com/iQuHACK/2026-NVIDIA/blob/main/LABS-challenge-Phase1.md)) and the [PRD-template.md](PRD-template.md) file.
-* [ ] **Notify the judges in discord:** DM `Monica-NVIDIA`, `Linsey-NV Mentor`, and `Iman_nvidia` that your phase 1 deliverables are ready to be judged.   
+* [x] **Tutorial Notebook:** Completed [01_quantum_enhanced_optimization_LABS.ipynb](https://github.com/iQuHACK/2026-NVIDIA/blob/main/tutorial_notebook/01_quantum_enhanced_optimization_LABS.ipynb) including your "Self-Validation" section.
+* [x] **PRD:** `PRD.md` defining your plan.  See [Milestone 1 in the challenge description]([LABS-challenge-Phase1.md](https://github.com/iQuHACK/2026-NVIDIA/blob/main/LABS-challenge-Phase1.md)) and the [PRD-template.md](PRD-template.md) file.
+* [x] **Notify the judges in discord:** DM `Monica-NVIDIA`, `Linsey-NV Mentor`, and `Iman_nvidia` that your phase 1 deliverables are ready to be judged.   
 
 **Phase 2 Submission (Due 10am eastern Sun Feb 1):**
 
-* [ ] **Final Code:** Notebooks and scripts for the Milestone 3 implementation. Add these files to a folder in this directory.  Include a README.md to guide the judges if you have multiple files.
-* [ ] **Test Suite:** `tests.py` or other documentation or scripts used for verifying your work. 
-* [ ] **AI Report:** `AI_REPORT.md` (See [AI_REPORT-template.md](AI_REPORT-template.md)).
-* [ ] **Presentation:** Slides (Live) or MP4 (Remote).
+* [x] **Final Code:** Notebooks and scripts for the Milestone 3 implementation. Add these files to a folder in this directory.  Include a README.md to guide the judges if you have multiple files.
+* [x] **Test Suite:** `tests.py` or other documentation or scripts used for verifying your work. 
+* [x] **AI Report:** `AI_REPORT.md` (See [AI_REPORT-template.md](AI_REPORT-template.md)).
+* [x] **Presentation:** Slides (Live) or MP4 (Remote).
 
 ## Evaluation Criteria: How You Will Be Graded
 
