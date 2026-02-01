@@ -1,4 +1,4 @@
-## The Workflow : How did you organize your AI agents? (e.g., "We used a Cursor agent for coding and a separate ChatGPT instance for documentation").
+## The Workflow : How did you organize your AI agents? 
 We used chatGPT for understanding and documentation. First used ChatGPT to sanity-check our understanding of the algorithms, then we written down in plain English and writing prompts. Once we are comfortable with the idea, we used coda as our coding assistant. After that we will first run the test, if it passed, we will run our verifaction code. 
 
 ## Verification Strategy : How did you validate code created by AI?
