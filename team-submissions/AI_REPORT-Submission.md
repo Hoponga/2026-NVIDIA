@@ -2,7 +2,33 @@
 We used chatGPT for understanding and documentation. First used ChatGPT to sanity-check our understanding of the algorithms, then we written down in plain English and writing prompts. Once we are comfortable with the idea, we used coda as our coding assistant. After that we will first run the test, if it passed, we will run our verifaction code. 
 
 ## Verification Strategy : How did you validate code created by AI?
-Requirement: You must describe specific Unit Tests you wrote to catch AI hallucinations or logic errors.
+We did not trust AI-generated code by default. Every AI-assisted change had to pass **(1) unit tests**, **(2) physical/symmetry invariants**, and **(3) known optimal energy solution** before being merged. The test.py should be able to find here: .
+
+### 1) Unit tests (deterministic + fast)
+We wrote unit tests to lock down correctness of core components:
+- Objective/energy function returns expected values on hand-constructed inputs
+- Shape/type checks and bounds checks for inputs (N, graph edges, parameter vectors)
+- Reproducibility: fixed random seeds and verified stable outputs where applicable
+
+These tests run locally in seconds and catch basic logic bugs introduced by AI edits and protect against subtle sign mistakes, wrong Hamiltonian terms, or incorrect aggregation logic.
+
+
+### 2) Physics/symmetry invariants (domain-specific correctness)
+We encoded problem invariants that must always hold, and we assert them directly:
+- **Global flip symmetry:** `E(x) == E(-x)` (for Ising-style objectives / Hamiltonians)
+- **Permutation / relabeling consistency:** relabeling vertices does not change the energy distribution (when applicable)
+- **Known edge-case states:** energies for all-zeros / all-ones / alternating patterns match expected values
+
+If any invariant fails, it’s treated as a correctness failure
+
+### 3) Best energy compares with optimal energy
+We verified that our answers were never below the pre-existing optimal Energy values for any given N we tested, by referring to Mertens’ Exhaustive Table (1996).
+
+### 4) AI code review rules (process guardrails)
+To reduce hallucination risk, we applied strict review rules:
+- AI outputs must be small, localized diffs (no giant rewrites)
+- Each change must be traceable to a test or invariant it satisfies
+- Performance changes are only accepted after correctness passes 
 
 ## The "Vibe" Log :
 ### Win: One instance where AI saved you hours.
