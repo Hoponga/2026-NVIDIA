@@ -2,20 +2,22 @@
 
 ## What’s in this submission 
 
-All deliverables are in: `team-submissions`[https://github.com/Hoponga/2026-NVIDIA/tree/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions]
+All deliverables are in: `team-submissions`
 
 ### Phase 2
 - **Tutorial Notebook:** [MILESTONE1_tutorial_notebook.ipynb](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/MILESTONE1_tutorial_notebook.ipynb)
-  Includes **Self-Validation** checks (symmetry/brute force/etc.)
-- **PRD:** `PRD.md`[https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/PRD-Submission.md]
+
+Includes **Self-Validation** checks (symmetry/brute force/etc.)
+
+- **PRD:** [PRD.md](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/PRD-Submission.md)
  
 ### Phase 2
 - **Final code:**
-  1. QAOA: `QAOA_for_LABS_optimized.ipynb`[https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/QAOA_for_LABS_optimized.ipynb] and `QAOA_MTS_optimized.ipynb`[https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/QAOA_for_LABS_optimized.ipynb]
-  2. QE-MTS: `QAOA_for_LABS_optimized.ipynb`[https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/qe_mts.py]
+  1. QAOA: [QAOA_for_LABS_optimized.ipynb](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/QAOA_for_LABS_optimized.ipynb) and [QAOA_MTS_optimized.ipynb](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/QAOA_for_LABS_optimized.ipynb)
+  2. QE-MTS: [QAOA_for_LABS_optimized.ipynb](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/qe_mts.py)
 Graph included.
-- **Test suite:** `pytest.py`[https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/pytest.py]
-- **AI report:** `AI_REPORT.md`[https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/AI_REPORT-Submission.md]
+- **Test suite:** [pytest.py](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/pytest.py)
+- **AI report:** [AI_REPORT.md](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/AI_REPORT-Submission.md)
 - **Presentation:** `teams-submissions/[TEAM_NAME]/presentation/[slides.pdf | slides.pptx | demo.mp4]`
 
 ## Deliverables Checklist
