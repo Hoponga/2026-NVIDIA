@@ -1,13 +1,11 @@
-Required Sections:
-
-##The Workflow##: How did you organize your AI agents? (e.g., "We used a Cursor agent for coding and a separate ChatGPT instance for documentation").
+## The Workflow ##: How did you organize your AI agents? (e.g., "We used a Cursor agent for coding and a separate ChatGPT instance for documentation").
 We used chatGPT for understanding and documentation. First used ChatGPT to sanity-check our understanding of the algorithms, then we written down in plain English and writing prompts. Once we are comfortable with the idea, we used coda as our coding assistant. After that we will first run the test, if it passed, we will run our verifaction code. 
 
-##Verification Strategy##: How did you validate code created by AI?
+## Verification Strategy ##: How did you validate code created by AI?
 Requirement: You must describe specific Unit Tests you wrote to catch AI hallucinations or logic errors.
 
-##The "Vibe" Log##:
-###Win: One instance where AI saved you hours.###
+## The "Vibe" Log ##:
+### Win: One instance where AI saved you hours.###
 - We used AI as a “math/physics TA” for having a deeper understanding of the paper we were replicating. A big blocker was Instead of spending hours bouncing between the paper, lecture notes, and random StackExchange posts, we pasted the relevant equations and asked the AI to restate the physics in plain language. That one guided explanation compressed what would easily have been a full afternoon of background reading and derivations into ~20–30 minutes, and let us move straight on to implementing and testing the actual kernels.
 
 ### Learn: One instance where you altered your prompting strategy (provided context, created a skills.md file, etc) to get better results from your interaction with the AI agent. ###
