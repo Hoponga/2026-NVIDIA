@@ -101,7 +101,6 @@
 ### Agentic Workflow
 
 * **Plan:** \[How will you orchestrate your tools?\]  
-  * *Example:* "We are using Cursor as the IDE. We have created a `skills.md` file containing the CUDA-Q documentation so the agent doesn't hallucinate API calls. The QA Lead runs the tests, and if they fail, pastes the error log back into the Agent to refactor."  
   * We will use qBraid \+ Brev as our compute environment and Cursor \+ chatGPT as our “Vibe coding” agents.  
   * Design phase: This will be human-led. Project PIC and QA PIC will first write down the following in [context.md](http://context.md) so the agent doesn’t hallucinate APIs.   
     * LABS energy definition  
