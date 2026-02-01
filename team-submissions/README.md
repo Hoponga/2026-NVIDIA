@@ -4,7 +4,7 @@
 
 All deliverables are in: `team-submissions`
 
-### Phase 2
+### Phase 1
 - **Tutorial Notebook:** [MILESTONE1_tutorial_notebook.ipynb](https://github.com/Hoponga/2026-NVIDIA/blob/10c9e9b98c29bd4abf16912876c010c4900bea3f/team-submissions/MILESTONE1_tutorial_notebook.ipynb)
 
 Includes **Self-Validation** checks (symmetry/brute force/etc.)
