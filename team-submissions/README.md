@@ -29,7 +29,7 @@ Graph included.
 
 - Mertens, S. (1996). *Exhaustive search for low-autocorrelation binary sequences*. Journal of Physics A: Mathematical and General, 29(18), L473.
 
-- Cadavid, Alejandro Gomez, et al. “Scaling Advantage with Quantum-Enhanced Memetic Tabu Search for LABS.” arXiv, 7 Nov. 2025, arXiv:2511.04553. DOI: 10.48550/arXiv.2511.04553.
+- Cadavid, Alejandro Gomez, et al. “Scaling Advantage with Quantum-Enhanced Memetic Tabu Search for LABS.” arXiv, 7 Nov. 2025, arXiv:2511.04553. [DOI: 10.48550/arXiv.2511.04553.](https://doi.org/10.48550/arXiv.2511.04553)
 
 ## Deliverables Checklist
 
